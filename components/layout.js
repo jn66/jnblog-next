@@ -47,6 +47,7 @@ export default function Layout({ children, home }) {
         )}
       </header>
       <main>{children}</main>
+      <h1 class="text-3xl font-bold underline">Hello world!</h1>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
